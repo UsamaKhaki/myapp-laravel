@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class, 'index'])->name('index');
-Route::get('/sample', [PageController::class, 'sample'])->name('sample');
-Route::get('/table', [PageController::class, 'table'])->name('table');
-Route::get('/datatable', [PageController::class, 'datatable'])->name('datatable');
-Route::get('/404', [PageController::class, 'page404'])->name('404');
+Route::get('/', function () {
+    return view('welcome');
+});
