@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,4 @@ Route::get('/sample', [PageController::class, 'sample'])->name('sample');
 Route::get('/table', [PageController::class, 'table'])->name('table');
 Route::get('/datatable', [PageController::class, 'datatable'])->name('datatable');
 Route::get('/404', [PageController::class, 'page404'])->name('404');
+Route::get('/login', [AuthController::class, 'login'])->name('login');
