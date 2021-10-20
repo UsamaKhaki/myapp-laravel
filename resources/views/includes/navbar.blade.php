@@ -1,12 +1,11 @@
 <!--  Top bar  -->
 <div class="main-header hor-header">
     <div class="container">
-        <div class="main-header-left"><a class="main-header-menu-icon d-lg-none" href="{{ route('index') }}" id="mainNavShow"><span></span></a> <a class="main-logo" href="index.html">
-                <img src="{{ asset('img/logo.png') }}" class="header-brand-img desktop-logo" alt="logo"> <img
-                    src="{{ asset('img/icon.png') }}" class="header-brand-img icon-logo" alt="logo"> <img
-                    src="{{ asset('img/logo-light.png') }}" class="header-brand-img desktop-logo theme-logo"
-                    alt="logo"> <img src="{{ asset('img/icon-light.png') }}"
-                                     class="header-brand-img icon-logo theme-logo" alt="logo"> </a></div>
+        <div class="main-header-left"><a class="main-header-menu-icon d-lg-none" href="{{ route('index') }}" id="mainNavShow"><span></span></a>
+            <a class="main-logo" href="{{ route('index') }}">
+                <img src="{{ asset('img/logo/logo-sm.png') }}" class="header-brand-img desktop-logo" alt="">
+            </a>
+        </div>
         <div class="main-header-right">
             <div class="dropdown d-md-flex header-search"><a class="nav-link icon header-search"> <i
                         class="fe fe-search"></i> </a>
