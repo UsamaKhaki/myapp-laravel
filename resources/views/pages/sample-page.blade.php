@@ -34,5 +34,4 @@
     </div>
 </div>
 <!--End Body-->
-<!--End Body-->
 @endsection
