@@ -1,8 +1,8 @@
 <!--  Top bar  -->
 <div class="main-header hor-header">
     <div class="container">
-        <div class="main-header-left"><a class="main-header-menu-icon d-lg-none" href="{{ route('index') }}" id="mainNavShow"><span></span></a>
-            <a class="main-logo" href="{{ route('index') }}">
+        <div class="main-header-left"><a class="main-header-menu-icon d-lg-none" href="{{ route('page-dashboard') }}" id="mainNavShow"><span></span></a>
+            <a class="main-logo" href="{{ route('page-dashboard') }}">
                 <img src="{{ asset('img/logo/logo-sm.png') }}" class="header-brand-img desktop-logo" alt="">
             </a>
         </div>
@@ -70,16 +70,16 @@
 <div class="main-navbar sticky" style="margin-bottom: -58px;">
     <div class="container">
         <ul class="nav">
-            <li class="nav-item active"><a class="nav-link" href="{{ route('index') }}"><i class="fe fe-airplay"></i>Dashboard</a>
+            <li class="nav-item active"><a class="nav-link" href="{{ route('page-dashboard') }}"><i class="fe fe-airplay"></i>Dashboard</a>
             </li>
             <li class="nav-item"><a class="nav-link with-sub" href=""><i class="fe fe-life-buoy"></i>Tables</a>
                 <ul class="nav-sub">
-                    <li class="nav-sub-item"><a class="nav-sub-link" href="{{ route('table') }}">Basic Tables</a></li>
-                    <li class="nav-sub-item"><a class="nav-sub-link" href="{{ route('datatable') }}">Data Tables</a></li>
+                    <li class="nav-sub-item"><a class="nav-sub-link" href="{{ route('page-table') }}">Basic Tables</a></li>
+                    <li class="nav-sub-item"><a class="nav-sub-link" href="{{ route('page-datatable') }}">Data Tables</a></li>
                 </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="{{ route('sample') }}"><i class="fe fe-airplay"></i>Sample Page</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ route('404') }}"><i class="fe fe-airplay"></i>404</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ route('page-sample') }}"><i class="fe fe-airplay"></i>Sample Page</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ route('page-404') }}"><i class="fe fe-airplay"></i>404</a></li>
         </ul>
     </div>
 </div>
