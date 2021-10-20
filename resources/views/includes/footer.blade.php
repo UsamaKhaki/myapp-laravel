@@ -100,8 +100,6 @@
 <script src="{{ asset('js/sticky.js') }}"></script>
 <script src="{{ asset('js/custom.js') }}"></script>
 <script src="{{ asset('plugins/switcher/switcher.js') }}"></script>
-<script src="{{ asset('plugins/datatable/jquery.dataTables.min.js') }}"></script>
-<script src="{{ asset('plugins/datatable/dataTables.bootstrap4.min.js') }}"></script>
 <script>
     $.ajaxSetup({
         headers: {

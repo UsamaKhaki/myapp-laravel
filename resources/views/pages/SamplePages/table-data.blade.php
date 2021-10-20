@@ -127,6 +127,7 @@
     </div>
     <!--End Body-->
 @endsection
+@include('pages.plugins.datatable')
 @push('footer-js')
     <script>
         $('#example1_wrapper').dataTable();

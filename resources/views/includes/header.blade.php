@@ -20,9 +20,6 @@
     <link href="{{ asset('plugins/sidebar/sidebar.css') }}" rel="stylesheet">
     <link href="{{ asset('plugins/switcher/switcher.css') }}" rel="stylesheet">
     <link href="{{ asset('plugins/switcher/demo.css') }}" rel="stylesheet">
-    <link href="{{ asset('plugins/datatable/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('plugins/datatable/responsivebootstrap4.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('plugins/datatable/fileexport/buttons.bootstrap4.min.css') }}" rel="stylesheet">
     @stack('plugin-css')
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/skins.css') }}" rel="stylesheet">
