@@ -72725,3 +72725,8 @@ a.text-dark:focus {
         width: 120px;
     }
 }
+
+.header-nav{
+    top: -26px !important;
+    box-shadow: none !important;
+}

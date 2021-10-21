@@ -21,7 +21,7 @@
     <link href="{{ asset('plugins/switcher/switcher.css') }}" rel="stylesheet">
     <link href="{{ asset('plugins/switcher/demo.css') }}" rel="stylesheet">
     @stack('plugin-css')
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css?v=1.1') }}" rel="stylesheet">
     <link href="{{ asset('css/skins.css') }}" rel="stylesheet">
     <link href="{{ asset('css/dark-style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/boxed.css') }}" rel="stylesheet">

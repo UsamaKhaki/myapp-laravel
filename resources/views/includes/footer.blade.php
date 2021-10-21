@@ -18,6 +18,9 @@
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
+    $(function () {
+        navbarActive('{{ url() ->current() }}')
+    })
 </script>
 @stack('plugin-js')
 @stack('footer-js')
