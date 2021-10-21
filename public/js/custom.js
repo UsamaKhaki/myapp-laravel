@@ -1,7 +1,12 @@
 
 // ______________ Narbar Active
 function navbarActive (url = "dummy") {
-    $('.main-navbar .nav-link[href="'+url+'"]').parent('li').addClass('active');
+    let $a = $('.main-navbar .nav-item a[href="'+url+'"]')
+    $a.parent('li').addClass('active');
+    let $sub = "";
+    if($sub = $a.parents('.nav-sub')){
+        $sub.closest('.nav-item').addClass('active');
+    }
 }
 
 $(function() {
