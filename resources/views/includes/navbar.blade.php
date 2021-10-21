@@ -7,15 +7,6 @@
             </a>
         </div>
         <div class="main-header-right">
-            <div class="dropdown d-md-flex header-search"><a class="nav-link icon header-search"> <i
-                        class="fe fe-search"></i> </a>
-                <div class="dropdown-menu">
-                    <div class="main-form-search p-2"><input class="form-control" placeholder="Search"
-                                                             type="search">
-                        <button class="btn"><i class="fe fe-search"></i></button>
-                    </div>
-                </div>
-            </div>
             <div class="dropdown d-md-flex"><a class="nav-link icon full-screen-link"> <i
                         class="fe fe-maximize fullscreen-button"></i> </a></div>
             <div class="dropdown main-header-notification"><a class="nav-link icon" href=""> <i
@@ -56,10 +47,6 @@
                         class="dropdown-item" href=""> <i class="fe fe-settings"></i> Support </a> <a
                         class="dropdown-item" href=""> <i class="fe fe-compass"></i> Activity </a> <a
                         class="dropdown-item" href=""> <i class="fe fe-power"></i> Sign Out </a></div>
-            </div>
-            <div class="dropdown d-md-flex header-settings">
-                <a href="#" class="nav-link icon" data-toggle="sidebar-right" data-target=".sidebar-right"> <i
-                        class="fe fe-align-right"></i> </a>
             </div>
         </div>
     </div>
